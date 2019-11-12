@@ -1,0 +1,32 @@
+@charset "utf-8";
+/*css Dokument*/
+
+body {
+
+    color:black;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+}
+
+h1 {
+
+    color: blue;
+    font-size: 30px;
+}
+
+
+.small-box {
+    width: 300px;
+    height: 200px;
+    border-top: 16px dotted red;
+    border-bottom: 10px dotted green;
+    border-left: 7px solid purple;
+    border-right: 22px dashed pink;
+    border-top-right-radius: 50px; border-top-left-radius: 50px;border-bottom-left-radius: 50px; border-bottom-right-radius: 50px;
+    margin-top: 20px; margin-right: 0px; margin-bottom: 15px; margin-left: 10px;
+    padding-top: 10px; padding-right: 51px; padding-bottom: 0; padding-left: 15px;
+    display: inline-block;
+    background-image: url(u1.jpg);
+    background-size: 25%;
+    background-repeat: repeat;
+    line-height: 120px;
+}

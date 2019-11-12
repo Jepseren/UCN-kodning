@@ -1,0 +1,49 @@
+
+.bgimg {
+    height: 30vh;
+    width: 100vw;
+    position: top;
+    z-index: -1;
+    background-image: url("../img/ocean.JPG");
+    background-size: cover;
+    text-align: center;
+    line-height: 20VH;    
+    
+}
+
+  .hest{
+    font-size: 100px;
+    color: rgb(235, 235, 235);
+    align-self: center;
+
+}
+
+.nav a {
+  color: rgb(41, 172, 41);
+}
+
+#h2 {
+  color: aqua;
+}
+
+.nav a:hover{
+  color: brown;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+
+}
+  footer {
+    position: fixed;
+    bottom: 0;
+    color: rgb(16, 138, 160);
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.pokepuppies {
+    font-family: "Brush Script MT"; font-size: 24px; font-style: normal;
+
+}

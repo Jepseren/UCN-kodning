@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* this is a css document */
+
+
+        html {
+            color: crimson;
+            background-color: rgb(37, 10, 10)
+        }
+
+        nav {
+            color: rgb(26, 19, 19);
+            background-color: rgb(255, 255, 255)
+        }
+        
+        h1 {
+            color: crimson;
+            background-color: rgb(0, 0, 0)
+        }
+
+        dl {
+            color: rgb(27, 220, 20);
+            background-color: rgb(0, 0, 0)
+        }
+        footer {
+            color: rgb(16, 138, 160);
+            background-color: rgb(229, 233, 31)
+        }
+
+        .pokepuppies {
+            font-family: "Brush Script MT", cursive; font-size: 24px; font-style: normal;
+
+        }
+
+        .section {
+            margin: 0 auto;
+            width: 600px;
+              
+
+        }
+
+        .side-by-side img{
+            width: 48%;
+
+        }
+ 

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Marc Kræmer" />
+    <style>
+        html {
+            color: crimson;
+            background-color: rgb(202, 189, 189)
+        }
+
+        .column {
+            float: left;
+            width: 45.00%;
+            padding: 3px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+    </style>
+
+    <title>My Page</title>
+</head>
+
+<Body>
+    <center>
+        <h1 style="color:rgb(224, 20, 20) ;font-size:60px;">OUR WORLD</h1>
+        <p>The world is in danger. The winds blow hard, the volcanoes throw fire.</p>The people kill each other for
+        their believes, all the while they are all slowly boiled</p>
+        <div class="row">
+            <div class="column">
+                <img src="pictures/vt.jpg" alt="vulcano" class="center" width="80%">
+            </div>
+            <div class="column">
+                <img src="pictures/to.jpg" alt="tornado" class="center" width="80%">
+            </div>
+        </div>
+
+        <hr>
+        <h2 style="color: darkblue">What can we do?</h2>
+
+        <p style="color: darkblue">We can start caring for each other, and our legacy</p>
+
+        <img src="pictures/Legacy.jpg" width="60%">
+        <br>
+        <a href="la.docx">cv</a>
+    </center>
+</body>
+
+</html>

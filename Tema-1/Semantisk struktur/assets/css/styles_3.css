@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* this is a css document */
+
+body {
+    color: black;
+    background-color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: blue;
+    font-size: 30px;
+
+}
+
+.small-box {
+    color:green;
+    font-size: 30px;
+}
+
+.Pokemon {
+    color: blueviolet;
+    background-color: brown;
+    font-size: 20px;
+    line-height: 120px;
+}
+
+#red {
+    color:red;
+    border: 4px blue;
+}
+
+.box_1 { 
+    width: 100px; 
+    float: left;
+}
+
+.box_2 { 
+    width: 120px; float: right; 
+}
+
+.box_3 { 
+    width: 50vw; float: left;
+}
+
+.red { 
+    color: red; background: rgb(224, 24, 214); 
+}
+
+.blue { 
+    color: blue; background: rgb(54, 202, 41); 
+}
+
+.blue_and_green { 
+    color: blue; background: rgb(54, 202, 41); 
+}
+
+.black { 
+    color: rgb(0, 0, 0); background: rgb(0, 0, 0); 
+}
+
+.border { 
+    border: 5px solid black; 
+}
+
+
+.red.border { 
+    border-color: rgb(173, 165, 165); 
+}
+
+.blue.border { 
+    border-color: blue;
+}
